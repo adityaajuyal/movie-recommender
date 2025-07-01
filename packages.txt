@@ -1,0 +1,2 @@
+# System packages for Streamlit Community Cloud
+# Add any system-level dependencies here if needed
