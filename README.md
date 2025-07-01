@@ -125,6 +125,33 @@ You can also install dependencies using a requirements file:
 pip install -r requirements.txt
 ```
 
+## 🚀 Deployment
+
+### Option 1: Streamlit Community Cloud (Recommended - FREE)
+
+The easiest way to deploy your app:
+
+1. **Visit [Streamlit Community Cloud](https://share.streamlit.io/)**
+2. **Sign in with your GitHub account**
+3. **Click "New app"**
+4. **Configure:**
+   - Repository: `adityaajuyal/movie-recommender`
+   - Branch: `main`
+   - Main file path: `movie_recommendation_app.py`
+5. **Deploy!** Your app will be live at `https://[your-app-name].streamlit.app/`
+
+### Option 2: Heroku
+
+1. Create a Heroku account
+2. Install Heroku CLI
+3. Deploy using the provided `Procfile` and `setup.sh`
+
+### Option 3: Railway/Render
+
+Simply connect your GitHub repository and deploy with one click.
+
+**📝 Note:** All necessary deployment files (`Procfile`, `setup.sh`, `.streamlit/config.toml`) are already included in the repository.
+
 ## 💻 How to Use
 
 ### Basic Usage
